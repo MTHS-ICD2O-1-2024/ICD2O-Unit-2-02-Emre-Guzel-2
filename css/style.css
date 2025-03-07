@@ -12,18 +12,39 @@ body {
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
-  background: skyblue;
+  background: darkred;
+  margin-left: 2rem;
+}
+
+.dimatoins {
+  color: white;
+  font-weight: 900;
+  font-style: bold;
+  font-display: initial;
+  text-indent: .5rem;
 }
 
 .Calculate {
-  width: 45%;
+  width: 35%;
   text-align: center;
   margin-top: 6vw;
   margin-left: 45vw;
   margin-top: 10rem;
 }
 
-#answer {
-  color: black;
+#perimeter {
+  color: white;
   margin-top: 1rem;
+  font-weight: 500;
+  font-style: italic;
+  font-display: initial;
+}
+
+#area {
+  color: white;
+  font-weight: 500;
+  font-style: italic;
+  font-display: initial;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
 }
