@@ -5,7 +5,7 @@
 // This file contains the JS functions for index.html
 
 function calculateBtn() {
-  document.getElementById("perimeter").innerHTML = "<p> p = 2(5 + 3) =" + 2*(5+3) + "</p>"
-  document.getElementById("area").innerHTML = "<p> p = 5*3 =" + 5*3 + "</p>"
+  document.getElementById("perimeter").innerHTML = "<p>  Perimeter is:" + 2 * (5 + 3) + 'cm' + "</p>"
+  document.getElementById("area").innerHTML = "<p> Area is:" + 5 * 3 + 'cm² ' + "</p>"
 
 }

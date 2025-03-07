@@ -34,7 +34,6 @@ body {
 
 #perimeter {
   color: white;
-  margin-top: 1rem;
   font-weight: 500;
   font-style: italic;
   font-display: initial;
@@ -45,6 +44,5 @@ body {
   font-weight: 500;
   font-style: italic;
   font-display: initial;
-  margin-top: 1rem;
   margin-bottom: 1rem;
 }
