@@ -18,7 +18,7 @@
   <link rel="icon" type="image/png" sizes="16x16" href="./favicon-16x16.png">
   <link rel="manifest" href="/site.webmanifest">
   <link rel="stylesheet" href="css/style.css">
-  <title>Hello world in js </title>
+  <title>Shape Calculator </title>
 </head>
 
 <body>
@@ -26,22 +26,34 @@
   <div class="mdl-layout mdl-js-layout mdl-layout--fixed-header">
     <header class="mdl-layout__header">
       <div class="mdl-layout__header-row">
-        <span class="mdl-layout-title">Hello world in JS!</span>
+        <span class="mdl-layout-title">Calculating the area and premiter of rectengle</span>
       </div>
     </header>
+    <h3>The dimensions of a rectengle are 5 and 3cm^2</h3>
     <br>
+    <div id="perimeter">
+      P = 2(L+W)
+      P = 2(5+3)
+      p =?
+    </div>
+    <br>
+    <div id="area">
+      A = LW
+      A = 5*3
+      A = ?
+      </div>
     <form action="#">
       <main id="click-me " class="mdl-layout__content">
-        <button id="click" type="button" onclick="Helloworld()"
+        <button id="click" type="button" onclick="Calculate()"
           class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect">
-          Click here
+          Calculate
         </button>
     </form>
     <div id="answer"></div>
     </main>
   </div>
   <br>
-  <img class="Calculate" src="images/Hello_World_Brian_Kernighan_1978.jpg" alt="">
+  <img class="Calculate" src="images/area_and_perimeter.png" alt="Formula of rectengle">
 
   <script src="js/script.js"></script>
 </body>
